@@ -7,4 +7,10 @@ hello git， how to  test git
 		4、git status 查看当前文件的状态，例如是否提交修改，是否有改动
 		5、git diff  XX 查看修改的内容是啥，可以在提交修改前使用
 		6、git log 命令显示从最近到最远的显示日志
-		1234567432245653345523215432
+		7、git log -pretty=oneline 每一次改动只显示一行
+		8、git reset --hard HEAD^ 回退到上一个版本 ，如果要回退到上上一个版本可以使用git reset --hard HEAD^^以此类推
+		9、git reset  --hard HEAD~10 回退到上10个版本
+		10、git reflog  可以获得每次修改的版本号，可以根据获取的版本号来进行恢复版本
+		11、git reset --hard xx  xx代表要恢复的版本号；
+		
+		 
