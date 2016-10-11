@@ -5,3 +5,5 @@ hello git， how to  test git
 		2、git  add  XX   把 xx文档给添加进仓库
 		3、git  commit  -m "xx"  对修改的文档进行提交说明
 		4、git status 查看当前文件的状态，例如是否提交修改，是否有改动
+		5、git diff  XX 查看修改的内容是啥，可以在提交修改前使用
+		6、git log 命令显示从最近到最远的显示日志
