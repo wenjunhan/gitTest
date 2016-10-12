@@ -1,0 +1,3 @@
+remote:
+git remote add origin https://github.com/wenjunhan/gitTest.git
+git push -u origin master
